@@ -39,9 +39,9 @@ Sistema-CLOUD/
 └── README.md
 
 
-## 📸 Screenshots
+## 📸 Demonstração
 
 ### Tela principal
 
-![Tela principal](imagens\tela.png)
+![Tela principal](imagens/tela.png)
 ```
