@@ -28,13 +28,16 @@ Sistema desktop desenvolvido em Python para gerenciamento de empresas, utilizand
 ## 📁 Estrutura
 
 ```text
-Sistema-CLOUD/
+sistema-gestao-empresas/
 ├── src/
 │   ├── main.py
 │   ├── tela.py
 │   ├── empresasDAO.py
 │   └── ...
+├── imagens/
+│   └── tela.png
 ├── .gitignore
+├── .env.example
 ├── requirements.txt
 └── README.md
 
