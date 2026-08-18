@@ -40,11 +40,10 @@ sistema-gestao-empresas/
 ├── .env.example
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 📸 Screenshots
 
 ### Tela principal
 
 ![Tela principal](imagens/tela.png)
-```
