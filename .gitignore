@@ -1,6 +1,8 @@
-
-Trabalho de Python/Trabalho/__pycache__/DAO.cpython-312.pyc
-Trabalho de Python/Trabalho/__pycache__/EmpresasDAO.cpython-312.pyc
-Trabalho de Python/Trabalho/__pycache__/MinhaTela.cpython-312.pyc
-Trabalho de Python/Trabalho/__pycache__/naturezaJuridicaDAO.cpython-312.pyc
-Trabalho de Python/Trabalho/__pycache__/tela.cpython-312.pyc
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.db
+*.sqlite
+*.sqlite3
