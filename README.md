@@ -39,7 +39,7 @@ Sistema-CLOUD/
 └── README.md
 
 
-## 📸 Demonstração
+## 📸 Screenshots
 
 ### Tela principal
 
