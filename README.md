@@ -26,14 +26,13 @@ O sistema organiza os dados de empresas parceiras (fornecedores, clientes, distr
 
 ## 🛠️ Tecnologias
 
-| Categoria | Tecnologias |
-|---|---|
-| Linguagem | Python |
-| Interface gráfica | Tkinter (ttk) |
-| Banco de dados | PostgreSQL |
-| Acesso ao banco | psycopg2 |
-| Configuração | python-dotenv (variáveis de ambiente) |
-| Ferramentas | Git, GitHub |
+- **Linguagem:** Python
+- **Interface gráfica:** Tkinter (ttk)
+- **Banco de dados:** PostgreSQL
+- **Acesso ao banco:** psycopg2
+- **Configuração:** python-dotenv (variáveis de ambiente)
+- **Ferramentas:** Git e GitHub
+
 
 ---
 
@@ -66,15 +65,13 @@ sistema-gestao-empresas/
 
 O banco tem 7 tabelas. A tabela principal, `empresas`, se relaciona por chave estrangeira com 6 tabelas de apoio:
 
-| Tabela | Função |
-|---|---|
-| `empresas` | Dados da empresa (CNPJ único, razão social, contatos, capital social etc.) |
-| `natureza_juridica` | Natureza jurídica (Ltda., S.A., cooperativa etc.) |
-| `porte` | Porte da empresa (microempresa, pequeno porte etc.) |
-| `tipos_empresa` | Fornecedor, distribuidor, cliente, parceiro etc. |
-| `segmentos` | Segmento de atuação (tecnologia, saúde, indústria etc.) |
-| `status_empresa` | Ativa, inativa, bloqueada, em análise |
-| `classificacoes` | Pequena, média, grande empresa etc. |
+- `empresas`: dados da empresa (CNPJ único, razão social, contatos, capital social etc.)
+- `natureza_juridica`: natureza jurídica (Ltda., S.A., cooperativa etc.)
+- `porte`: porte da empresa (microempresa, pequeno porte etc.)
+- `tipos_empresa`: fornecedor, distribuidor, cliente, parceiro etc.
+- `segmentos`: segmento de atuação (tecnologia, saúde, indústria etc.)
+- `status_empresa`: ativa, inativa, bloqueada, em análise
+- `classificacoes`: pequena, média, grande empresa etc.
 
 Há índices em `cnpj`, `razao_social` e `nome_fantasia` para acelerar as buscas.
 
